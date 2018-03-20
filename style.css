@@ -151,9 +151,10 @@ h2 {
 .app-spotlight {
   background-size: cover;
   background-position: center top;
-  height: 500px;
-  background-image: url(hand.png);
+  height:400px;
+  background-image: url(assets/hand.png);
 }
+
 
 .notifications {
   background-image: url(alert.svg);
@@ -266,7 +267,7 @@ ul {
 /* RESPONSIVE STYLES  */
 
 @media (max-width: 600px) {
-  .header { 
+  .header {
   position:relative;
 }
   .hero {
@@ -299,11 +300,10 @@ ul {
   }
   .text {
     width: 100%;
+    padding-top:50px;
   }
   .image {
     margin-top: 20px;
-  }
-  .image {
     width: 100%;
   }
   footer {
